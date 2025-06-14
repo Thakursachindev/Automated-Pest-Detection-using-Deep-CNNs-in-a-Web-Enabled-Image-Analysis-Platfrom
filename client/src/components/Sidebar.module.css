@@ -1,0 +1,84 @@
+/* /client/src/components/Sidebar.module.css */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 260px;
+  height: 100%;
+  background-color: var(--sidebar-bg);
+  color: var(--sidebar-text);
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000;
+  box-shadow: 2px 0 12px rgba(0, 0, 0, 0.15);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.open {
+  transform: translateX(0);
+}
+
+.closed {
+  transform: translateX(-100%);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  line-height: 28px;
+}
+
+.closeBtn {
+  background: none;
+  border: none;
+  color: var(--sidebar-text);
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.closeBtn:hover{
+  transform: scale(1.1);
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: var(--sidebar-text);
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+.link:hover {
+  background-color: var(--sidebar-hover);
+  transform: translateX(5px);
+}
+
+.language {
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 220px;
+  }
+}

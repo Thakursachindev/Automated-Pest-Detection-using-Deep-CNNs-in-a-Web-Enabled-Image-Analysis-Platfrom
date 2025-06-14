@@ -1,0 +1,42 @@
+/* /client/src/layout/Layout.module.css */
+
+.appWrapper {
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  overflow: hidden;
+}
+
+.contentArea {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 100vh;
+  position: relative;
+}
+
+.main {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+}
+/* 
+.backgroundLayer {
+  position: absolute;
+  inset: 0;
+  background: url('/background.jpg') center/cover no-repeat;
+  filter: blur(8px);
+  z-index: 0;
+  opacity: 0.3;
+  pointer-events: none;
+} */
+
+
+
+@media (max-width: 768px) {
+  .main {
+    padding: 1rem;
+  }
+}

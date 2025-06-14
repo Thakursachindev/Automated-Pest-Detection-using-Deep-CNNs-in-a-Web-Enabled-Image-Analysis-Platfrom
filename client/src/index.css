@@ -1,0 +1,92 @@
+/* /src/index.css */
+
+/* ✅ 1. Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* ✅ 2. Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ✅ 3. Apply font + smooth transitions */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  transition: background-color 0.3s, color 0.3s;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ✅ 4. Light and Dark Theme Variables */
+:root {
+  --bg: #f9f9f9;
+  --text: #222;
+  --primary: #388e3c;       
+  --secondary: #1565c0;     
+  --accent: #8e24aa;        
+  --card-bg: #ffffff;
+  --border: #ddd;
+  --sidebar-bg: #ffffff;
+  --sidebar-text: #222222;
+  --sidebar-hover: #eaeaea;
+
+}
+
+body.dark {
+  --bg: #121212;
+  --text: white;
+  --primary: #388e3c;       
+  --secondary: #1565c0;
+  --accent: #8e24aa;
+  --card-bg: #1f1f1f;
+  --border: #333;
+  --sidebar-bg: #1e1e2f;
+  --sidebar-text: #ffffff;
+  --sidebar-hover: #2e2e42;
+
+}
+
+/* ✅ 5. Page Container Layout */
+.page-container {
+  margin-left: 220px;
+  padding: 2rem;
+  transition: margin-left 0.3s;
+}
+
+.page-container.collapsed {
+  margin-left: 80px;
+}
+
+/* ✅ 6. Smooth Link Styling */
+a {
+  text-decoration: none;
+  color: var(--secondary);
+  transition: color 0.2s;
+}
+a:hover {
+  color: var(--accent);
+}
+
+html, body {
+  height: 100%;
+  overflow-y: auto;
+}
+
+
+/* ✅ 7. Scrollbar Style */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--secondary);
+  border-radius: 10px;
+}
+
+html, body, #root {
+  height: 100%;
+}
