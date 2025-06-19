@@ -1,4 +1,4 @@
-# 🌾 Smart Pest Vision AI 🔍🐛
+# 🌾 Automated-Pest-Detection-using-Deep-CNNs-in-a-Web-Enabled-Image-Analysis-Platfrom 🔍🐛
 
 An intelligent, multilingual, and real-time web application for automated **pest detection and classification** using deep learning and computer vision. Built with cutting-edge CNN and YOLOv8 models, integrated into a user-friendly Streamlit interface to support farmers and researchers in precision agriculture.
 
