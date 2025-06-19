@@ -55,7 +55,7 @@ All models trained/tested on the **IP102 v1.1** dataset.
 
 ## 📁 Dataset
 
-**[IP102 v1.1](https://github.com/xieziyu/IP102)** — A large-scale benchmark dataset for agricultural pest detection and classification with:
+**[IP102 v1.1](https://www.kaggle.com/datasets/rtlmhjbn/ip02-dataset)** — A large-scale benchmark dataset for agricultural pest detection and classification with:
 - 75,000+ images
 - 102 pest categories
 - Labeled bounding boxes and species names
