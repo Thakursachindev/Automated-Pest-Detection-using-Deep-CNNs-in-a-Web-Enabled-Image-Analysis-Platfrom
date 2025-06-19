@@ -31,7 +31,7 @@ All models trained/tested on the **IP102 v1.1** dataset.
 
 - **Backend:** Python, PyTorch, TensorFlow  
 - **Frontend:** React
-- Backend: ** Flask  
+- Backend: Flask  
 - **Image Processing:** OpenCV, PIL, NumPy  
 - **Data Augmentation:** Albumentations  
 - **Utilities:** Googletrans, Matplotlib  
