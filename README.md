@@ -1,6 +1,6 @@
 # 🌾 Automated-Pest-Detection-using-Deep-CNNs-in-a-Web-Enabled-Image-Analysis-Platfrom 🔍🐛
 
-An intelligent, multilingual, and real-time web application for automated **pest detection and classification** using deep learning and computer vision. Built with cutting-edge CNN and YOLOv8 models, integrated into a user-friendly Streamlit interface to support farmers and researchers in precision agriculture.
+An intelligent, multilingual, and real-time web application for automated **pest detection and classification** using deep learning and computer vision. Built with cutting-edge CNN and YOLOv8 models, integrated into a user-friendly interface to support farmers and researchers in precision agriculture.
 
 ---
 
@@ -12,7 +12,7 @@ An intelligent, multilingual, and real-time web application for automated **pest
 ✅ **Dynamic Theme Switching** (Light / Dark Mode)  
 ✅ **Interactive GPT-Powered Chatbot** for farmer assistance  
 ✅ **Text-based Pest Info Lookup** (Type any pest class and get full details!)  
-✅ **Streamlit Sidebar Model Selector**
+✅ **Streamlit Sidebar Model Selector with React and Flask**
 
 ---
 
@@ -30,7 +30,8 @@ All models trained/tested on the **IP102 v1.1** dataset.
 ## 📊 Technologies & Libraries
 
 - **Backend:** Python, PyTorch, TensorFlow  
-- **Frontend:** Streamlit  
+- **Frontend:** React
+- Backend: ** Flask  
 - **Image Processing:** OpenCV, PIL, NumPy  
 - **Data Augmentation:** Albumentations  
 - **Utilities:** Googletrans, Matplotlib  
