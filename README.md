@@ -50,31 +50,30 @@ A web-based image analysis platform for real-time pest detection and classificat
 ## 📸 Screenshots
 
 ### ResNet Upload
-![ResNet Upload](Screenshots/ResNet-Upload.png)
+![ResNet-Upload](https://github.com/user-attachments/assets/15766108-e4df-4938-8db1-812429d7bf80)
+
 
 ### Real-time ResNet
-![Real-time ResNet](Screenshots/Real-time-ResNet.png)
+"C:\Users\ACER\Downloads\Real-time-ResNet.png"
+
 
 ### YOLO Upload Image
-![YOLO Upload Image](Screenshots/YOLO-Upload-Image.png)
+"C:\Users\ACER\Downloads\YOLO-Upload-Image.png"
 
 ### YOLO Video
-![YOLO Video](Screenshots/YOLO-Video.png)
 
-### Real-time YOLO
-![Real-time YOLO](Screenshots/Real-time-YOLO.png)
+"C:\Users\ACER\Downloads\YOLO-Video.png"
+
 
 ### Punjabi Language
-![Punjabi Language](Screenshots/Punjabi-Language.png)
 
+"C:\Users\ACER\Downloads\Punjabi-Language.png"
 ### Hindi Language
-![Hindi Language](Screenshots/Hindi-Language.png)
 
-### Pest Lookup
-![Pest Lookup](Screenshots/Pest-Lookup.png)
+
 
 ### Gemini Chatbot
-![Chatbot](Screenshots/Chatbot.png)
+
 
 ## 📝 License
 
